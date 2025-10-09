@@ -14,12 +14,14 @@ public class TestGrab : MonoBehaviour, IGrabbable
                 currentController.GrabEnd();
                 currentController = controller;
                 ParentObject();
+                GetComponent<Rigidbody>().useGravity = false;
             }
         }
         else
         {
             currentController = controller;
             ParentObject();
+            GetComponent<Rigidbody>().useGravity = false;
         }
     }
 
@@ -34,5 +36,6 @@ public class TestGrab : MonoBehaviour, IGrabbable
         currentController.GrabGone(true, transform);
 
         currentController = null;
+        GetComponent<Rigidbody>().useGravity = true;
     }
 }

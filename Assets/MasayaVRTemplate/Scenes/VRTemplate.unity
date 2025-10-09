@@ -10131,6 +10131,22 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 295692757828958012, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 295692757828958012, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 295692757828958012, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 295692757828958012, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 826801645423045652, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -10221,7 +10237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2126403417893143286, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3084743218528925704, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
       propertyPath: objList.Array.size
@@ -10245,10 +10261,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5755915712725067203, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499999104018242048, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750317735800215544, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750317735800215544, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750317735800215544, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750317735800215544, guid: db1083f1d690bb94f8f40eca6411d68c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

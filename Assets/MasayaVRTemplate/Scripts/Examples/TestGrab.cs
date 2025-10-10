@@ -21,7 +21,9 @@ public class TestGrab : MonoBehaviour, IGrabbable
         {
             currentController = controller;
             ParentObject();
-            GetComponent<Rigidbody>().useGravity = false;
+            GetComponent<Rigidbody>().useGravity = false; // Don't magnetise to the floor
+            GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 0, 0); // Stall
+            GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0); // Stall
         }
     }
 
